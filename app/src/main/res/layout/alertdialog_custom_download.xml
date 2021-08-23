@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/transparente"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_border_azul"
+                    android:orientation="vertical"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp">
+
+                    <TextView
+                        android:id="@+id/alertdialog_custom_tv_tittle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="12dp"
+                        android:gravity="center"
+                        android:text="Espere un momento"
+                        android:textColor="@color/negro"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+
+
+
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center|top"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <ProgressBar
+                            android:layout_margin="12dp"
+                            android:layout_width="?attr/actionBarSize"
+                            android:layout_height="?attr/actionBarSize">
+
+                        </ProgressBar>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

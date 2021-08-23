@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_finerio_logo" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:gravity="center"
+                    android:text="Perfil"
+                    android:textColor="@color/negro"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/activity_profile_tv_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="id"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_accountExpired"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="accountExpired"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_accountLocked"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="accountLocked"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/activity_profile_tv_customerId"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="customerId"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_dateCreated"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="dateCreated"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_dateCreated"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="dateCreated"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="email"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_enabled"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="enabled"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_lastUpdated"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="lastUpdated"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="name"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_notificationsEnabled"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="notificationsEnabled"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_passwordExpired"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="passwordExpired"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_signupCredentialEmailSent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="signupCredentialEmailSent"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_signupCredentialPushSent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="signupCredentialPushSent"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_signupEmailSent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="signupEmailSent"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_signupFrom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="signupFrom"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_termsAndConditionsAccepted"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="termsAndConditionsAccepted"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="type"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+                <TextView
+                    android:id="@+id/activity_profile_tv_finerioCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="finerioCode"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/activity_profile_tv_hasNewTerms"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="hasNewTerms"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp" />
+
+
+
+                <Button
+                    android:id="@+id/activity_profile_btn_movimientos"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/blanco"
+                    android:background="@drawable/btn_generico_azul"
+                    android:text="Consultar Movimientos"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize">
+
+                </Button>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

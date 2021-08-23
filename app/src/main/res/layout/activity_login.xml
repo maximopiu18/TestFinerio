@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/ic_finerio_logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <TextView
+
+           android:layout_margin="16dp"
+           android:gravity="center"
+           android:textColor="@color/negro"
+           android:textSize="24dp"
+           android:text="@string/login_tittle"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+
+            android:paddingTop="150dp"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16dp"
+                android:text="@string/login_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/activity_login_ed_correo"
+                android:padding="6dp"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/background_border_azul"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+
+            <TextView
+                android:textSize="16dp"
+                android:text="@string/login_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/activity_login_ed_pass"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:padding="6dp"
+                android:background="@drawable/background_border_azul"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="bottom"
+            android:layout_margin="16dp"
+            android:weightSum="100"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <Button
+                    android:id="@+id/activity_login_btn_entrar"
+                    android:textColor="@color/blanco"
+                    android:text="@string/login_enter"
+                    android:background="@drawable/btn_generico_azul"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </Button>
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

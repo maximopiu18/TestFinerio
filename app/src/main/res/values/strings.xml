@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test Finerio</string>
+    <string name="login_tittle">Iniciar Sesión</string>
+    <string name="login_email">Correo electrónico</string>
+    <string name="login_pass">Contraseña</string>
+    <string name="login_enter">Entrar</string>
+</resources>
